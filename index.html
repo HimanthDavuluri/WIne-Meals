@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #8B0000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .wine-list, .meal-pairings {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #8B0000;
+        }
+        .wine-item, .meal-item {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Wine Shop</h1>
+    <nav>
+        <a href="#wines">Wines</a>
+        <a href="#pairings">Meal Pairings</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="wines" class="wine-list">
+        <h2>Our Wines</h2>
+        <div class="wine-item">
+            <h3>Chardonnay</h3>
+            <p>A full-bodied white wine with notes of apple and pear.</p>
+        </div>
+        <div class="wine-item">
+            <h3>Cabernet Sauvignon</h3>
+            <p>A rich red wine with flavors of dark fruit and hints of oak.</p>
+        </div>
+        <div class="wine-item">
+            <h3>Pinot Noir</h3>
+            <p>A light-bodied red wine with cherry and raspberry notes.</p>
+        </div>
+    </section>
+
+    <section id="pairings" class="meal-pairings">
+        <h2>Meal Pairings</h2>
+        <div class="meal-item">
+            <h3>Chardonnay</h3>
+            <p>Pairs well with grilled chicken, seafood, and creamy pasta dishes.</p>
+        </div>
+        <div class="meal-item">
+            <h3>Cabernet Sauvignon</h3>
+            <p>Best enjoyed with red meats, hearty stews, and aged cheeses.</p>
+        </div>
+        <div class="meal-item">
+            <h3>Pinot Noir</h3>
+            <p>Great with salmon, roasted chicken, and mushroom dishes.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <p>Email: info@wineshop.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+</div>
+
+<footer>
+    <p style="text-align: center; padding: 20px; background: #8B0000; color: #fff;">&copy; 2023 Wine Shop</p>
+</footer>
+
+</body>
+</html>
